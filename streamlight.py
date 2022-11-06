@@ -3,8 +3,13 @@ import numpy as np
 import pickle
 import streamlit as st
 import os
-import statsmodels.api as sm
+# import statsmodels.api as sm
+
+
+
+
 pickle_in=open("modelz.pkl",'rb')
+
 model=pickle.load(pickle_in)
 def predict(country,year,status,adult_m,infant_d,alc,percent,hepa,meas,bmi,fived,pol,totexp,diph,hiv,gdp,pop,thin1,thin10,inc,school):
     xyz=np.asarray([year,adult_m,infant_d,alc,percent,hepa,meas,bmi,fived,pol,totexp,diph,hiv,gdp,thin1,thin10,inc,school]).astype(np.float64)
