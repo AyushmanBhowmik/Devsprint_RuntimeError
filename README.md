@@ -1,5 +1,10 @@
 # Devsprint_RuntimeError
 
+ Bleeding Edge
+ 
+ The world of ML has unparalleled application in all fields of research. This is especially the case in the field of Medical Sciences. With our model we desire to use the power of ML to predict the lifespan of a human being under certain conditions(such as country,adult mortality rate and infant death rate).We then take our model to the next stage by representing it in a form of web app so that it can be universally accessed by all.
+ 
+ 
  Ayushman Bhowmik(bhowmikayushman@gmail.com)(main)
  
  Aryan Debray(aryandebray@gmail.com)
